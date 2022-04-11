@@ -19,12 +19,12 @@ function init_threeScene(spec) {
 
   // CREATE THE GLASSES AND ADD THEM
   const r = JeelizThreeGlassesCreator({
-    envMapURL: "../assets/hdri1.png",
-    lensesMeshURL: "../assets/lens.gltf",
-    frameMeshURL: "../assets/f1.gltf",
-    occluderURL: "../models3D/face.json",
-    AOMapURL: "../assets/aomap.jpg",
-    normalMapURL: "../assets/frameNormal.png",
+    envMapURL: "./assets/hdri1.png",
+    lensesMeshURL: "./assets/lens.gltf",
+    frameMeshURL: "./assets/f1.gltf",
+    occluderURL: "./models3D/face.json",
+    AOMapURL: "./assets/aomap.jpg",
+    normalMapURL: "./assets/frameNormal.png",
   });
   // vertical offset:
   const dy = 0.1;
