@@ -2822,6 +2822,7 @@ var JEELIZFACEFILTER = (function () {
                                     var K = (k.ea + 1) % k.La;
                                     switch (b.clientWaitSync(k.xa[K], 0, 0)) {
                                         case b.TIMEOUT_EXPIRED:
+                                            break;
                                         case b.WAIT_FAILED:
                                             break;
                                         default:
