@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="content-language" content="en-EN" />
+    
+    <title>JEELIZ FACEFILTER: GLASSES VTO DEMO</title>
+    <!-- INCLUDE THREE.JS -->
+    <script src="./js/three/three.js"></script>
+    <script src="./js/fflate.min.js"></script>
+    <script src="./js/three/GLTFLoader.js"></script>
+
+    <!-- INCLUDE JEELIZ FACEFILTER SCRIPT -->
+    <script src="./js/jeelizFaceFilter.js"></script>
+
+    <!-- INCLUDE JEELIZ THREE.JS HELPER -->
+    <script src="./js/helpers/JeelizThreeHelper.js"></script>
+
+    <!-- INCLUDE JEELIZRESIZER -->
+    <script src="./js/helpers/JeelizResizer.js"></script>
+
+    <!-- INCLUDE DEMO SCRIPT AND GLASSES CREATOR -->
+    <script src="./JeelizThreeGlassesCreator.js"></script>
+    <script src="./js/main.js"></script>
+
+    <link rel="stylesheet" href="./js/appearance/style.css" type="text/css" />
+  </head>
+  
+  <body onload="main()">
+    <div class="color-btn" id="AzureBlue">Azure Blue</div>
+    <div class="color-btn" id="PowerPink">Power Pink</div>
+    <div class="color-btn" id="ClearFrost">Clear Frost</div>
+    <canvas width="600" height="600" id='jeeFaceFilterCanvas'></canvas>
+  </body>
+</html>
